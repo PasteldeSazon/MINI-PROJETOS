@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Binário Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <h1>Fiz no tédio</h1>
+  <header class="cabecalho">
+    <ul class="lista">
+      <span>Binário Converter</span>
+      <span>Jogo da Velha</span>
+      <span>Zoológico Maluco</span>
+    </ul>
+  </header>
+  <body>
+    <div class="calculadora">
+      <h2>Decimal/binário</h2>
+      <input
+        type="number"
+        id="decInput"
+        placeholder="Digite um número decimal"
+        class="campo-texto"
+      />
+      <button onclick="converterDecParaBin()">Converter</button>
+
+      <p class="resultado" id="resultado"></p>
+
+      <input
+        type="number"
+        id="binInput"
+        placeholder="Digite o número binário"
+        class="campo-texto"
+      />
+      <button onclick="converterBinParaDec()">Converter</button>
+
+      <p class="resultado" id="resultadoBinario"></p>
+    </div>
+    <div class="calculadora">
+      <h2>Octal</h2>
+      <input
+        type="number"
+        id="decParaOctInput"
+        placeholder="Digite um número decimal"
+        class="campo-texto"
+      />
+      <button onclick="converterDecParaOct()">Converter</button>
+
+      <p class="resultado" id="resultado2"></p>
+
+      <input
+        type="text"
+        id="octInput"
+        placeholder="Digite um número octal"
+        class="campo-texto"
+      />
+
+      <button type="button" onclick="converterOctParaDec()">Converter</button>
+
+      <p class="resultado" id="resultadoOctal"></p>
+    </div>
+    <div class="calculadora">
+      <h2>Hexadecimal</h2>
+      <input
+        type="number"
+        id="decParaHexInput"
+        placeholder="Digite um número decimal"
+        class="campo-texto"
+      />
+      <button onclick="converterDecParaHex()">Converter</button>
+
+      <p class="resultado" id="resultado3"></p>
+
+      <input
+        type="text"
+        id="hexInput"
+        placeholder="Digite um número Hexadecimal"
+        class="campo-texto"
+      />
+
+      <button onclick="converterHexParaDec()">Converter</button>
+
+      <p class="resultado" id="resultadoHexadecimal"></p>
+
+      <button id="limpar">Limpar resultados</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

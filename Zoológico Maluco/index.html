@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Página inicial, aqui se encontra a melhor parte da brincadeira do Zoológico Maluco"
+    />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="titulo">
+        <h1>ZOOLÓGICO MALUCO</h1>
+        <p>Central de Monitoramento</p>
+      </div>
+      <div class="status">
+        <span><li>SISTEMA ONLINE</li></span>
+      </div>
+    </header>
+    <main>
+      <section class="cols">
+        <div class="cols1" >
+          <h2>Câmera</h2>
+          <span class="id-camera" id="camera"></span>
+        </div>
+        <div class="cols2"><h2>Relatório</h2>
+        <span id="relatorio"></span>
+      </div>
+      </section>
+      <br />
+      <section class="btns">
+        <button
+          type="button"
+          aria-label="Camera 1-Leões"
+          class="CAM"
+          data-camera="1"
+        >
+          <span class="emoji-font">🦁</span> <span class="camN">CAM1</span>
+          <span class="animal">(Leões)</span>
+        </button>
+        <button
+          type="button"
+          aria-label="Camera 2-Elefantes"
+          class="CAM"
+          data-camera="2"
+        >
+          <span class="emoji-font">🐘</span> <span class="camN">CAM2</span>
+          <span class="animal">(Elefantes)</span>
+        </button>
+        <button
+          type="button"
+          aria-label="Camera 3-Macacos"
+          class="CAM"
+          data-camera="3
+        "
+        >
+          <span class="emoji-font">🐒</span> <span class="camN">CAM3</span>
+          <span class="animal">(Macacos)</span>
+        </button>
+        <button
+          type="button"
+          aria-label="Camera 4-Pinguins"
+          class="CAM"
+          data-camera="4"
+        >
+          <span class="emoji-font">🐧</span> <span class="camN">CAM4</span>
+          <span class="animal">(Pinguins)</span>
+        </button>
+        <button
+          type="button"
+          aria-label="Camera 5-Girafas"
+          class="CAM"
+          data-camera="5"
+        >
+          <span class="emoji-font">🦒</span> <span class="camN">CAM5</span>
+          <span class="animal">(Girafas)</span>
+        </button>
+        <button
+          type="button"
+          aria-label="Camera 6-Ursos"
+          class="CAM"
+          data-camera="6"
+        >
+          <span class="emoji-font">🐻</span> <span class="camN">CAM6</span>
+          <span class="animal">(Ursos)</span>
+        </button>
+        <button
+          type="button"
+          aria-label="Camera 7-Rinocerontes"
+          class="CAM"
+          data-camera="7"
+        >
+          <span class="emoji-font">🦏</span> <span class="camN">CAM7</span>
+          <span class="animal">(Rinocerontes)</span>
+        </button>
+        <button
+          type="button"
+          aria-label="Camera 8-Zebras"
+          class="CAM"
+          data-camera="8"
+        >
+          <span class="emoji-font">🦓</span> <span class="camN">CAM8</span>
+          <span class="animal">(Zebras)</span>
+        </button>
+        <button
+          type="button"
+          aria-label="Camera 9-Hipopótamos"
+          class="CAM"
+          data-camera="9"
+        >
+          <span class="emoji-font">🦛</span> <span class="camN">CAM9</span>
+          <span class="animal">(Hipopótamos)</span>
+        </button>
+        <button
+          type="button"
+          aria-label="Camera 10-Cangurus"
+          class="CAM"
+          data-camera="10"
+        >
+          <span class="emoji-font">🦘</span> <span class="camN">CAM10</span>
+          <span class="animal">(Cangurus)</span>
+        </button>
+        <button
+          type="button"
+          aria-label="Camera 11-Cachorros"
+          class="CAM"
+          data-camera="11"
+        >
+          <span class="emoji-font">🐶</span> <span class="camN">CAM11</span>
+          <span class="animal">(Cachorros)</span>
+        </button>
+        <button
+          type="button"
+          aria-label="Camera 12-Gatos"
+          class="CAM"
+          data-camera="12"
+        >
+          <span class="emoji-font">🐈</span> <span class="camN">CAM12</span>
+          <span class="animal">(Gatos)</span>
+        </button>
+        <button
+          type="button"
+          aria-label="Camera 13-Chimpanzés"
+          class="CAM"
+          data-camera="13"
+        >
+          <span class="emoji-font">🙊</span> <span class="camN">CAM13</span>
+          <span class="animal">(Chimpanzés)</span>
+        </button>
+        <button
+          type="button"
+          aria-label="Camera 14-Peixes"
+          class="CAM"
+          data-camera="14"
+        >
+          <span class="emoji-font">🐟</span> <span class="camN">CAM14</span>
+          <span class="animal">(Peixes)</span>
+        </button>
+        <button
+          type="button"
+          aria-label="Camera 15-Tartaruga"
+          class="CAM"
+          data-camera="15"
+        >
+          <span class="emoji-font">🐢</span> <span class="camN">CAM15</span>
+          <span class="animal">(Tartaruga)</span>
+        </button>
+        <button
+          type="button"
+          aria-label="Camera 16-Serpentes"
+          class="CAM"
+          data-camera="16"
+        >
+          <span class="emoji-font">🐍</span> <span class="camN">CAM16</span>
+          <span class="animal">(Serpentes)</span>
+        </button>
+        <button
+          type="button"
+          aria-label="Camera 17-Tucanos"
+          class="CAM"
+          data-camera="17  "
+        >
+          <span class="emoji-font">🦜</span> <span class="camN">CAM17</span>
+          <span class="animal">(Tucanos)</span>
+        </button>
+        <button
+          type="button"
+          aria-label="Camera 18-Tigres"
+          class="CAM"
+          data-camera="18"
+        >
+          <span class="emoji-font">🐅</span> <span class="camN">CAM18</span>
+          <span class="animal">(Tigres)</span>
+        </button>
+        <button
+          type="button"
+          aria-label="Camera 19-Lontras"
+          class="CAM"
+          data-camera="19"
+        >
+          <span class="emoji-font">🦦</span> <span class="camN">CAM19</span>
+          <span class="animal">(Lontras)</span>
+        </button>
+        <button
+          type="button"
+          aria-label="Camera 20-Focas"
+          class="CAM"
+          data-camera="20"
+        >
+          <span class="emoji-font">🦭</span> <span class="camN">CAM20</span>
+          <span class="animal">(Focas)</span>
+        </button>
+      </section>
+    </main>
+    <script type="module" src="./assets/scripts/ui.js"></script>
+  </body>
+</html>

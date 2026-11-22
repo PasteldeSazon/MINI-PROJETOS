@@ -1,0 +1,134 @@
+@import url("https://googleapis.com");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+  background-color: #eee4e4;
+}
+
+.cols {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.cols1,
+.cols2 {
+  display: flex;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: flex-start;
+  height: 400px;
+  width: 400px;
+}
+
+.cols1 h2,
+.cols2 h2 {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+}
+
+.cols1 h2::after,
+.cols2 h2::after {
+  content: "";
+  display: block;
+  width: 400px;
+  height: 2px;
+  background: black;
+  margin-top: 5px;
+}
+/* ____________________________________________________________________________ */
+.btns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin: 50px;
+}
+
+.btns button {
+  /* height: 60px; */
+  font-family: "Noto Color Emoji", sans-serif;
+  font-size: 1.5rem;
+  border-radius: 8px;
+}
+
+.CAM {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+
+  background: #1b1b1b;
+  border: 2px solid #444;
+  color: white;
+
+  padding: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.CAM:hover {
+  border-color: #a9a9a9;
+  transform: scale(1.05);
+}
+
+.camN {
+  font-family: monospace;
+  font-weight: bold;
+  color: #00ff88;
+}
+
+.animal {
+  font-size: 0.9rem;
+  color: #d9d9d9;
+}
+/* ______________________________________________________________________________________ */
+.emoji-font {
+  font-family: "Noto Color Emoji", sans-serif;
+  font-size: 2rem;
+}
+/* ___________________________________________________________________________________ */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #181818;
+  border-bottom: 2px solid #333;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.titulo h1 {
+  margin: 0;
+  font-family: monospace;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+
+.titulo p {
+  margin: 0.3rem 0 0;
+  color: #999;
+  font-family: monospace;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-family: monospace;
+  font-size: 10px;
+}
+
+li::marker {
+    color: #00ff88;
+    font-size: 1.2rem;
+}
